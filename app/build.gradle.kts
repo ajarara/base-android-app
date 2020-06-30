@@ -46,11 +46,14 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.1.0")
     implementation("androidx.constraintlayout:constraintlayout:1.1.3")
     implementation("androidx.recyclerview:recyclerview:1.1.0")
+    implementation("androidx.fragment:fragment:1.2.5")
     implementation("com.squareup.retrofit2:retrofit:2.7.1")
     implementation("com.squareup.retrofit2:adapter-rxjava2:2.7.1")
     implementation("com.squareup.retrofit2:converter-jackson:2.7.1")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.9.10")
     implementation("io.reactivex.rxjava2:rxandroid:2.0.0")
 
+    testImplementation("io.kotest:kotest-runner-junit5-jvm:4.0.6")
+    testImplementation("io.kotest:kotest-assertions-core-jvm:4.0.6")
     testImplementation("org.junit.jupiter:junit-jupiter:5.6.0")
 }
